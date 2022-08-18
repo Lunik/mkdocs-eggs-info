@@ -54,6 +54,7 @@ setup(
         'Programming Language :: Python :: 3.10',
     ],
     packages=find_packages(),
+    include_package_data=True,
     entry_points={
         'mkdocs.plugins': [
             'eggs-info = mkdocs_eggs_info.plugin:EggsInfoPlugin'
